@@ -1,0 +1,27 @@
+{
+  "name": "@him2497/port-finder",
+  "version": "1.0.0",
+  "description": "A CLI to check if a port is currently in use.",
+  "main": "src/index.js",
+  "bin": {
+    "@him2497/port-finder": "bin/port-finder",
+    "port-finder": "bin/port-finder"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "port-finder"
+  ],
+  "author": "Himanshu Mehta",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "esm": "^3.2.25",
+    "inquirer": "^6.5.1"
+  }
+}
